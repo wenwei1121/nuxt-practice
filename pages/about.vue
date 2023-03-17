@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-
+  const { data } = await useFetch("/api/currency/JPY")
 </script>
 
 <style scoped>

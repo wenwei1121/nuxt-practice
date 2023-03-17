@@ -22,7 +22,8 @@
   const linkList = [
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
-    { name: "Products", path: "/products" }
+    { name: "Products", path: "/products" },
+    { name: "ProductsAbc", path: "/products/abc" },
   ]
 </script>
 
