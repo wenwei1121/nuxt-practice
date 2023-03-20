@@ -1,4 +1,3 @@
-import { Link } from './.nuxt/components.d';
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
@@ -17,6 +16,9 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     currencyKey: process.env.CURRENCY_API_KEY
-  }
+  },
+  // typescript: {
+  //   strict: true
+  // }
   // pages: true // => 不用 app.vue 時加這個
 })
