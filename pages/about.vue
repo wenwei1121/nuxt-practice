@@ -1,12 +1,13 @@
 <template>
   <div>
+    <TestFoldComponents />
     <h1>About Pages</h1>
+    {{ data }}
   </div>
-  <div>{{ data }}</div>
 </template>
 
-<script setup>
-  const { data } = await useFetch("/api/currency/JPY")
+<script setup lang="ts">
+const { data } = await useFetch('currency/JPY')
 </script>
 
 <style scoped>

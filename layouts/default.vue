@@ -19,12 +19,10 @@
 </template>
 
 <script setup>
-  const linkList = [
-    { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "Products", path: "/products" },
-    { name: "ProductsAbc", path: "/products/abc" },
-  ]
+const linkList = [
+  { name: 'Home', path: '/' },
+  { name: 'About', path: '/about' }
+]
 </script>
 
 <style scoped>

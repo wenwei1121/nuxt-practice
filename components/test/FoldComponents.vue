@@ -1,7 +1,7 @@
 <template>
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <div>
+    <h1>foldComponents</h1>
+  </div>
 </template>
 
 <script setup>
